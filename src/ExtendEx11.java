@@ -26,7 +26,7 @@ class Child11 extends Parent11{
 		super.pr(x, 20); // 부모클래스 메서드 호출
 	}//메서드 오버라이딩
 }// 자손클래스 Child11 class
-public class ExtendsEx11 {
+public class ExtendEx11 {
 	public static void main(String[] args) {
 		Child11 ch= new Child11();
 		ch.pr(10);
